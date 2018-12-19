@@ -1,0 +1,36 @@
+{
+  "name": "synchronized-object",
+  "version": "0.1.0",
+  "description": "Typescript node module template with mocha and wallaby tests",
+  "main": "./lib/main.js",
+  "typings": "./lib/main.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "test": "mocha --compilers ts:ts-node/register",
+    "test:w": "npm test -- -w"
+  },
+  "keywords": [
+    "",
+    "typescript",
+    "node",
+    "modules",
+    "mocha",
+    "wallaby"
+  ],
+  "author": "Zang MingJie",
+  "license": "GPLv3",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.15",
+    "@types/promise.prototype.finally": "^2.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "promise.prototype.finally": "^3.1.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
+  }
+}

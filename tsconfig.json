@@ -1,0 +1,19 @@
+{
+  "env": "node",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "declaration": true,
+    "types": ["node"],
+    "lib": ["es6", "scripthost"]
+  },
+  "exclude": ["lib", "test", "node_modules"]
+}
